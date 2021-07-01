@@ -19,30 +19,30 @@ void two() {
     char str;
     cin >> str;
     do { 
-        cout << "Ââåäèòå ïîâòîğíî: ";
+        cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿Ğ¾Ğ²Ñ‚Ğ¾Ñ€Ğ½Ğ¾: ";
         cin >> str;      
     } 
     while (isdigit(str) || isalpha(str));
 
-    cout << "Ââåäèòå ñòğîêó:\n";    
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑÑ‚Ñ€Ğ¾ĞºÑƒ:\n";    
     string str2;  
     cin >> str2;
 
     for (int i = 0; i < str2.length(); i++) {
         if (str == str2[i])
         {
-            cout << "Ñèìâîë â ñòğîêå íà " << i << " ìåñòå" << endl;
+            cout << "Ğ¡Ğ¸Ğ¼Ğ²Ğ¾Ğ» Ğ² ÑÑ‚Ñ€Ğ¾ĞºĞµ Ğ½Ğ° " << i << " Ğ¼ĞµÑÑ‚Ğµ" << endl;
             return;
         }
 
     }
-    cout << "Ñèìâîëàâ ñòğîêå íåò!" << endl;
+    cout << "Ğ¡Ğ¸Ğ¼Ğ²Ğ¾Ğ»Ğ°Ğ² ÑÑ‚Ñ€Ğ¾ĞºĞµ Ğ½ĞµÑ‚!" << endl;
 }
 
 void three() {
 
     int arr[3][3];
-    std::cout << "Ââåäèòå çíà÷åíèÿ äëÿ ìàòğèöû: " << endl;
+    std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ Ğ´Ğ»Ñ Ğ¼Ğ°Ñ‚Ñ€Ğ¸Ñ†Ñ‹: " << endl;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             cin >> arr[i][j];
@@ -56,7 +56,7 @@ void three() {
         + arr[0][2] * arr[1][0] * arr[2][1]
         - arr[0][2] * arr[1][1] * arr[2][0];
 
-    std::cout << "Ğåçóëüòàò: " << r << endl;
+    std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << r << endl;
 
 }
 
